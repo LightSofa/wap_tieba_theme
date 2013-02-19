@@ -1,0 +1,21 @@
+
+body>div{
+}
+body>div>div.i{
+	display: inline-block !important;
+	float: right;
+	position: relative;
+	left: 10cm !important;
+	padding: 1.5cm !important;
+    border: 0cm hidden gray !important;
+}
+body>div>*:not(.i){
+	width: 10cm !important;
+}
+body>div>div:last-child,
+body>div>div>a:only-child{
+    position: absolute;
+    right: 0cm;
+    top: 50%;
+    z-index: 9;
+}

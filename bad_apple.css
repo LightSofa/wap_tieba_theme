@@ -1,0 +1,27 @@
+﻿body{
+	background: url(http://sofaagent-alidamsn.dotcloud.com/f/picture/2013-02-19_145522.gif) no-repeat -20% bottom,
+	url(http://sofaagent-alidamsn.dotcloud.com/f/picture/BAD_APPLE_molisa.gif) no-repeat 120% top,
+	black;
+}
+/*文字*/
+*{
+	color: gray !important;
+}
+*::selection{
+	background: white !important;
+	text-decoration-style: solid !important;
+}
+/*帖子*/
+body>div>div.i{
+	transition: all 2s ease;
+}
+body>div>div.i:hover{
+	padding: 1cm !important;
+    border: 0.5cm hidden gray !important;
+    background: gray;
+}
+body>div>div.i:hover>a{
+    color: white !important;
+	font-size: larger !important;
+}
+/*在梦中发现了吗，还是什么都没有？*/
