@@ -1,0 +1,28 @@
+/*    开发脚手架，不是必须的*/
+    *{
+    	color: black !important;
+    	background-color: white !important;
+    }
+    div{
+    	border: 0.1em dashed #f8c513;
+    }
+/*    开发脚手架，不是必须的*/
+body>div{
+}
+body>div>div.i{
+	display: inline-block !important;
+	float: right;
+	position: relative;
+	left: 10cm !important;
+	padding: 1cm !important;
+}
+body>div>*:not(.i){
+	width: 10cm !important;
+}
+body>div>div:last-child,
+body>div>div>a:only-child{
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    z-index: 9;
+}
